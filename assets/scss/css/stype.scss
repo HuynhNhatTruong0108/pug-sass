@@ -1,0 +1,167 @@
+$color_1: rgb(255, 255, 255);
+$color_2: aqua;
+$color_3: white;
+$color_4: black;
+$background-color_1: #5574C5;
+$background-color_2: #bbbbbb;
+$background-color_3: black;
+$background-color_4: rgb(250, 250, 250);
+
+
+nav.navbar.navbar-inverse {
+  
+    padding-left: 120px;
+}
+
+
+//ip14
+.unit-copy-wrapper {
+	text-align: center;
+}
+.cta-links {
+	text-align: center;
+}
+.unit-image-wrapper {
+	text-align: center;
+}
+
+
+//holiday
+
+.module-content {
+	background-image: url(/assets/images/holiday.jpg);
+	color: $color_1;
+	padding: 200px 30px;
+	a {
+		color: $color_2;
+	}
+}
+.module-content1 {
+	background-image: url(/assets/images/br.jpg);
+	color: $color_3;
+	padding: 200px 30px;
+	a {
+		color: $color_2;
+	}
+}
+.thumbnail {
+	text-align: center;
+}
+
+
+//slide
+.slide.img {
+	width: 100%;
+}
+.height {
+	height: 10px;
+}
+.image-container {
+	max-width: 800px;
+	position: relative;
+	margin: auto;
+}
+.next {
+	right: 0;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	padding: 10px;
+	margin-top: -25px;
+	font-size: xx-large;
+}
+.previous {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	padding: 10px;
+	margin-top: -25px;
+	font-size: xx-large;
+}
+.captionText {
+	color: $color_4;
+	font-size: 14px;
+	position: absolute;
+	padding: 12px 12px;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+.slideNumber {
+	background-color: $background-color_1;
+	color: $color_3;
+	border-radius: 25px;
+	right: 0;
+	opacity: .5;
+	margin: 5px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	position: absolute;
+}
+.fa {
+	font-size: 32px;
+	&:hover {
+		transform: rotate(360deg);
+		transition: 1s;
+		color: $color_3;
+	}
+}
+.footerdot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: $background-color_2;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.5s ease;
+	&:hover {
+		background-color: $background-color_3;
+	}
+}
+.active {
+	background-color: $background-color_3;
+}
+
+
+//footer
+.end {
+	p {
+		margin: 25px 50px 75px 100px;
+	}
+}
+.row {
+	padding-left: 180px;
+}
+.end0 {
+     padding-top: 500px;
+}
+.end1 {
+	li {
+		float: left;
+		a {
+			display: block;
+			color: $color_4;
+			text-align: center;
+			padding: 6px 17px;
+			padding-right: 30px;
+			text-decoration: none;
+		}
+	}
+	a {
+		display: block;
+		padding: 0px;
+		background-color: $background-color_4;
+	}
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: $background-color_4;
+	}
+}
+

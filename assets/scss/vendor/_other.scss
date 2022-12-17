@@ -1,0 +1,148 @@
+.wrapHiddenModal,
+.wrapHidden {
+    overflow: hidden;
+}
+
+textarea,
+a,
+input {
+    &:focus {
+        outline: unset;
+        outline: none;
+        @include boxShadow(unset !important);
+    }
+}
+
+// icon
+svg {
+    fill: currentColor;
+    
+    path {
+        fill: currentColor;
+    }
+}
+// end icon
+
+// scroll bar
+$color-track: #eeeeee;
+$color-thumb: #cacaca;
+$color-thumb-hover: #19508F;
+
+@media (min-width: 1200px) {
+    ::-webkit-scrollbar {
+        width: 12px;
+        height: 12px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background: $color-track;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: $color-thumb;
+        @include borderRadius(0);
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background: $color-thumb-hover;
+    }
+}
+// end scroll bar
+
+// slide
+.stopMoveSlide {
+    .slick-track {
+        left: 0 !important;
+        display: table;
+        margin: auto;
+        top: 0 !important;
+        @include transform(unset !important);
+        @include transform(none !important);
+    }
+}
+// end slide
+
+// page content
+.wrapContent1 {
+    padding: 90px 0;
+}
+
+.wrapContent2 {
+    padding: 60px 0;
+}
+
+.wrapContent3 {
+    padding: 30px 0;
+}
+
+.wrapContent4 {
+    padding: 60px 0 120px 0;
+}
+
+.wrapContent5 {
+    padding: 120px 0 60px 0;
+}
+
+.wrapContent6 {
+    padding: 120px 0;
+}
+
+.wrapContent7 {
+    padding: 60px 0 30px 0;
+}
+
+.bgColor1 {
+    background-color: $color3;
+}
+
+.bgColor2 {
+    background-color: $color5;
+}
+
+.bgColor3 {
+    background-color: $color4;
+}
+
+.showTextDetail {
+    @include customText1();
+}
+
+@media (max-width: 1199px) {
+    .wrapContent4 {
+        padding-top: 15px;
+    }
+
+    .wrapContent7,
+    .wrapContent5,
+    .wrapContent4,
+    .wrapContent6,
+    .wrapContent1,
+    .wrapContent2 {
+        padding: 30px 0;
+    }
+}
+// end page content
+
+// table in text
+.reponsiveTable {
+    overflow-x: auto;
+}
+// end table in text
+
+// iframe in text
+.reponsiveIframe  {
+    iframe {
+        border: none;
+    }
+}
+// end iframe in text
+
+// light gallery
+.lg-outer {
+    .lg-thumb {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+// end light gallery
