@@ -1,4 +1,5 @@
 # thuc-tap
-pug-html
-scss-css
+
+pug-html,
+scss-css,
 jquery
