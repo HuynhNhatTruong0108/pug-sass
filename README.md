@@ -8,12 +8,17 @@ jquery
 ![Logo](https://github.com/HuynhNhatTruong0108/thuc-tap/blob/master/anhwebdemo_thuctap.png)
 
 
-Ảnh trang chủ
+Ảnh trang chủ (pug-bootrap-scss)
 ![Logo](https://github.com/HuynhNhatTruong0108/thuc-tap/blob/master/Trangchu.png)
 
 
-Thanh tìm kiếm co giãn
+Thanh tìm kiếm co giãn (scss)
 ![Logo](https://github.com/HuynhNhatTruong0108/thuc-tap/blob/master/timkiem.png)
+
+
+Danh sách sản phẩm (pug-bootrap)
+![Logo](https://github.com/HuynhNhatTruong0108/thuc-tap/blob/master/sanpham.png)
+
 
 Slide gồm pug - scss - jquery
 ![Logo](https://github.com/HuynhNhatTruong0108/thuc-tap/blob/master/slide.png)
