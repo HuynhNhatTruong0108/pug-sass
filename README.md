@@ -18,5 +18,8 @@ Thanh tìm kiếm co giãn
 Slide gồm pug - scss - jquery
 ![Logo](https://github.com/HuynhNhatTruong0108/thuc-tap/blob/master/slide.png)
 
+Nội dung footer
+![Logo](https://github.com/HuynhNhatTruong0108/thuc-tap/blob/master/ndfooter.png)
+
 Re-simulate website: apple.com
 Reference: https://apple.com/
