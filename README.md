@@ -15,7 +15,7 @@ jquery
 Thanh tìm kiếm co giãn
 ![Logo](https://github.com/HuynhNhatTruong0108/thuc-tap/blob/master/timkiem.png)
 
-Slide gồm pug - scss - jquerry
+Slide gồm pug - scss - jquery
 ![Logo](https://github.com/HuynhNhatTruong0108/thuc-tap/blob/master/slide.png)
 
 Re-simulate website: apple.com
