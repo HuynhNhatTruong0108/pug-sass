@@ -3,13 +3,71 @@ head
   meta(charset='UTF-8')
   meta(http-equiv='X-UA-Compatible' content='IE=edge')
   meta(name='viewport' content='width=device-width, initial-scale=1.0')
-  link(rel='stylesheet' href='/assets/scss/css/stype.css')
-  link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')
-  link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')
-  script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js')
-script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js')
 
 
 link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css')
 script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js')
 script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js')
+
+
+
+
+nav.navbar.navbar-inverse
+  .container-fluid
+    .navbar-header
+      button.navbar-toggle(type='button' data-toggle='collapse' data-target='#myNavbar')
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(href='#').glyphicon.glyphicon-apple
+      
+    #myNavbar.collapse.navbar-collapse
+      ul.nav.navbar-nav
+        li.active
+          a(href='#') Store
+        li
+           a(href='#') Mac
+        li
+          a(href='#') iPad
+        li
+          a(href='#') iPhone
+        li
+          a(href='#') Watch
+        li
+          a(href='#') AirPods
+        li
+          a(href='#') Tv &amp; Home
+        li
+          a(href='#') Only on Apple
+        li
+          a(href='#') Accsessories
+        li
+          a(href='#') Support
+        li
+            .box
+              input(type='text' placeholder='Search apple.com')
+              a.glyphicon.glyphicon-search
+
+        li(style='margin-left: 10px;')
+            .dropdown 
+              button#menu1.btn.btn-default.dropdown-toggle(type='button' data-toggle='dropdown')
+                span.glyphicon.glyphicon-briefcase
+              ul.dropdown-menu.dropdown-menu-right(role='menu' aria-labelledby='menu1')
+                li(role='presentation')
+                  a(role='menuitem' tabindex='-1' href='#') Bag
+                li.divider(role='presentation')
+                li(role='presentation')
+                  a(role='menuitem' tabindex='-1' href='#') Saved items
+                li.divider(role='presentation')
+                li(role='presentation')
+                  a(role='menuitem' tabindex='-1' href='#') Order
+                li.divider(role='presentation')
+                li(role='presentation')
+                  a(role='menuitem' tabindex='-1' href='#') Account
+                li.divider(role='presentation')
+                li(role='presentation')
+                  a(role='menuitem' tabindex='-1' href='#') Sign in
+
+
+
+
+

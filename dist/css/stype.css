@@ -132,7 +132,7 @@ nav.navbar.navbar-inverse {
 }
 
 .end0 {
-  padding-top: 500px;
+  padding-top: 10px;
 }
 
 .end1 li {
@@ -157,6 +157,10 @@ nav.navbar.navbar-inverse {
   padding: 0;
   overflow: hidden;
   background-color: #fafafa;
+}
+
+.end2 {
+  padding: 15px 15px;
 }
 
 .box {
