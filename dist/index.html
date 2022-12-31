@@ -12,53 +12,77 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="/assets/scss/css/stype.css">
+    <link rel="stylesheet" type="text/css" href="/dist/css/stype.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <ccript src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></ccript>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myNavbar"><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand glyphicon glyphicon-apple" href="#"></a>
+    <header> 
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myNavbar"><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand glyphicon glyphicon-apple" href="#"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Store</a></li>
+              <li><a href="#">Mac</a></li>
+              <li><a href="#">iPad</a></li>
+              <li><a href="#">iPhone</a></li>
+              <li><a href="#">Watch</a></li>
+              <li><a href="#">AirPods</a></li>
+              <li><a href="#">Tv &amp; Home</a></li>
+              <li><a href="#">Only on Apple</a></li>
+              <li><a href="#">Accsessories</a></li>
+              <li><a href="#">Support</a></li>
+              <li>
+                <div class="box">
+                  <input type="text" placeholder="Search apple.com"><a class="glyphicon glyphicon-search"></a>
+                </div>
+              </li>
+              <li style="margin-left: 10px; ">
+                <div class="dropdown"> 
+                  <button class="btn btn-default dropdown-toggle" id="menu1" type="button" data-toggle="dropdown"><span class="glyphicon glyphicon-briefcase"></span></button>
+                  <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="menu1">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Bag</a></li>
+                    <li class="divider" role="presentation"></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Saved items</a></li>
+                    <li class="divider" role="presentation"></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Order</a></li>
+                    <li class="divider" role="presentation"></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Account</a></li>
+                    <li class="divider" role="presentation"></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sign in</a></li>
+                    <script src="https://code.jquery.com/jquery-3.6.3.js"> </script>
+                    <script>
+                      $(document).ready(function()
+                          {     
+                            $(window).scroll(function()
+                            {
+                            if($(this).scrollTop())
+                                {
+                                  $('header').addClass('sticky');                                  
+                                }
+                            else 
+                              $('header').removeClass('sticky');     
+                              })
+                            
+                            }
+                           
+                            
+                      
+                            
+                          )
+                    </script>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Store</a></li>
-            <li><a href="#">Mac</a></li>
-            <li><a href="#">iPad</a></li>
-            <li><a href="#">iPhone</a></li>
-            <li><a href="#">Watch</a></li>
-            <li><a href="#">AirPods</a></li>
-            <li><a href="#">Tv &amp; Home</a></li>
-            <li><a href="#">Only on Apple</a></li>
-            <li><a href="#">Accsessories</a></li>
-            <li><a href="#">Support</a></li>
-            <li>
-              <div class="box">
-                <input type="text" placeholder="Search apple.com"><a class="glyphicon glyphicon-search"></a>
-              </div>
-            </li>
-            <li style="margin-left: 10px;">
-              <div class="dropdown"> 
-                <button class="btn btn-default dropdown-toggle" id="menu1" type="button" data-toggle="dropdown"><span class="glyphicon glyphicon-briefcase"></span></button>
-                <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="menu1">
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Bag</a></li>
-                  <li class="divider" role="presentation"></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Saved items</a></li>
-                  <li class="divider" role="presentation"></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Order</a></li>
-                  <li class="divider" role="presentation"></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Account</a></li>
-                  <li class="divider" role="presentation"></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sign in</a></li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+      </nav>
+    </header>    
     <div class="unit-copy-wrapper">
       <h1 class="headline">iPhone 14
         <h2 class="subhead" role="presentation">Big and bigger.
@@ -101,66 +125,66 @@
             <figure class="unit-image unit-image-apple-card-december-hero"></figure>
           </div>
         </div>
+      </div><br>
+      <div class="container">
+        <div class="row list-group" id="products">
+          <div class="item col-lg-6">
+            <div class="thumbnail t1">
+              <h2>iPhone 14 Pro</h2>
+              <p>Pro. Beyond.</p><a href="">Learn more Buy</a><img class="group list-group-image" src="https://ruby.vn/wp-content/uploads/2020/10/dien-thoai-thong-minh-Apple-iPhone-12-Pro-va-12-Pro-Max-5G.jpg.webp" alt="Sản phẩm 1" width="300" height="300">
+            </div>
+          </div>
+          <div class="item col-lg-6">
+            <div class="thumbnail t4">
+              <h2>Apple Watch Series 8</h2>
+              <p>A healthy leap ahead.</p><a href="">Learn more Buy</a><img class="group list-group-image" src="https://ruby.vn/wp-content/uploads/2020/10/dong-ho-thong-minh-Apple-Watch-SE-Entry-Level.jpg.webp" alt="Sản phẩm 2" width="300" height="300">
+            </div>
+          </div>
+          <div class="item col-lg-6">
+            <div class="thumbnail t4">
+              <h2>HomePod mini</h2>
+              <p>HomePod mini</p><a href="">Learn more Buy</a><img class="group list-group-image" src="https://ruby.vn/wp-content/uploads/2020/10/loa-thong-minh-Apple-HomePod-mini.jpg.webp" alt="Sản phẩm 4" width="300" height="300">
+            </div>
+          </div>
+          <div class="item col-lg-6">
+            <div class="thumbnail t2">
+              <h2>Apple Watch Ultra</h2>
+              <p>Adventure awaits.</p><a href="">Learn more Buy</a><img class="group list-group-image" src="https://ruby.vn/wp-content/uploads/2020/09/Apple-Watch-Series-6.jpg.webp" alt="Sản phẩm 3" width="300" height="300">
+            </div>
+          </div>
+          <div class="item col-lg-6">
+            <div class="thumbnail t5">
+              <h2>Air pot</h2>
+              <p>Share the joy.</p><a href="">Shop</a><img class="group list-group-image" src="https://ruby.vn/wp-content/uploads/2020/10/san-pham-cong-nghe-khong-the-bo-qua-nam-2020.jpg.webp" alt="Sản phẩm 6" width="300" height="300">
+            </div>
+          </div>
+          <div class="item col-lg-6">
+            <div class="thumbnail t3">
+              <h2>Ipad</h2>
+              <p>Lovable. Drawable. Magical</p><a href="">Learn more Buy</a><img class="group list-group-image" src="https://ruby.vn/wp-content/uploads/2020/10/may-tinh-bang-sang-tao-Apple-iPad-the-he-8.jpg.webp" alt="Sản phẩm 5" width="300" height="300">
+            </div>
+          </div>
+        </div>
       </div>
+      <div class="image-container">
+        <div class="slide">
+          <div class="slideNumber">1</div><img src="/assets/images/slide1.jpg">
+        </div>
+        <div class="slide">
+          <div class="slideNumber">2</div><img src="/assets/images/slide2.jpg">
+        </div>
+        <div class="slide">
+          <div class="slideNumber">3</div><img src="/assets/images/slide3.jpg">
+        </div>
+        <div class="slide">
+          <div class="slideNumber">4</div><img src="/assets/images/slide4.jpg">
+        </div>
+        <div class="slide">
+          <div class="slideNumber">5</div><img src="/assets/images/slide5.jpg">
+        </div><a class="previous" onclick="moveSlides(-1)"><i class="fa fa-chevron-circle-left"></i></a><a class="next" onclick="moveSlides(1)"><i class="fa fa-chevron-circle-right"></i></a>
+      </div><br>
+      <div style="text-align:center"><span class="footerdot" onclick="activeSlide(1)"></span><span class="footerdot" onclick="activeSlide(2)"></span><span class="footerdot" onclick="activeSlide(3)"></span><span class="footerdot" onclick="activeSlide(4)"></span><span class="footerdot" onclick="activeSlide(5)"></span></div>
     </div>
-    <div class="container">
-      <div class="row list-group" id="products">
-        <div class="item col-xs-6">
-          <div class="thumbnail">
-            <h2>iPhone 14 Pro</h2>
-            <p>Pro. Beyond.</p><a href="">Learn more Buy</a><img class="group list-group-image" src="https://ruby.vn/wp-content/uploads/2020/10/dien-thoai-thong-minh-Apple-iPhone-12-Pro-va-12-Pro-Max-5G.jpg.webp" alt="Sản phẩm 1" width="300" height="300">
-          </div>
-        </div>
-        <div class="item col-lg-6">
-          <div class="thumbnail">
-            <h2>Apple Watch Series 8</h2>
-            <p>A healthy leap ahead.</p><a href="">Learn more Buy</a><img class="group list-group-image" src="https://ruby.vn/wp-content/uploads/2020/10/dong-ho-thong-minh-Apple-Watch-SE-Entry-Level.jpg.webp" alt="Sản phẩm 2" width="300" height="300">
-          </div>
-        </div>
-        <div class="item col-lg-6">
-          <div class="thumbnail">
-            <h2>Apple Watch Ultra</h2>
-            <p>Adventure awaits.</p><a href="">Learn more Buy</a><img class="group list-group-image" src="https://ruby.vn/wp-content/uploads/2020/09/Apple-Watch-Series-6.jpg.webp" alt="Sản phẩm 3" width="300" height="300">
-          </div>
-        </div>
-        <div class="item col-lg-6">
-          <div class="thumbnail">
-            <h2>HomePod mini</h2>
-            <p>HomePod mini</p><a href="">Learn more Buy</a><img class="group list-group-image" src="https://ruby.vn/wp-content/uploads/2020/10/loa-thong-minh-Apple-HomePod-mini.jpg.webp" alt="Sản phẩm 4" width="300" height="300">
-          </div>
-        </div>
-        <div class="item col-xs-6">
-          <div class="thumbnail">
-            <h2>Ipad</h2>
-            <p>Lovable. Drawable. Magical</p><a href="">Learn more Buy</a><img class="group list-group-image" src="https://ruby.vn/wp-content/uploads/2020/10/may-tinh-bang-sang-tao-Apple-iPad-the-he-8.jpg.webp" alt="Sản phẩm 5" width="300" height="300">
-          </div>
-        </div>
-        <div class="item col-xs-6">
-          <div class="thumbnail">
-            <h2>Air pot</h2>
-            <p>Share the joy.</p><a href="">Shop</a><img class="group list-group-image" src="https://ruby.vn/wp-content/uploads/2020/10/san-pham-cong-nghe-khong-the-bo-qua-nam-2020.jpg.webp" alt="Sản phẩm 6" width="300" height="300">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="image-container">
-      <div class="slide">
-        <div class="slideNumber">1</div><img src="/assets/images/slide1.jpg">
-      </div>
-      <div class="slide">
-        <div class="slideNumber">2</div><img src="/assets/images/slide2.jpg">
-      </div>
-      <div class="slide">
-        <div class="slideNumber">3</div><img src="/assets/images/slide3.jpg">
-      </div>
-      <div class="slide">
-        <div class="slideNumber">4</div><img src="/assets/images/slide4.jpg">
-      </div>
-      <div class="slide">
-        <div class="slideNumber">5</div><img src="/assets/images/slide5.jpg">
-      </div><a class="previous" onclick="moveSlides(-1)"><i class="fa fa-chevron-circle-left"></i></a><a class="next" onclick="moveSlides(1)"><i class="fa fa-chevron-circle-right"></i></a>
-    </div><br>
-    <div style="text-align:center"><span class="footerdot" onclick="activeSlide(1)"></span><span class="footerdot" onclick="activeSlide(2)"></span><span class="footerdot" onclick="activeSlide(3)"></span><span class="footerdot" onclick="activeSlide(4)"></span><span class="footerdot" onclick="activeSlide(5)"></span></div>
     <footer>
       <hr>
       <div class="end">
@@ -174,7 +198,7 @@
       </div>
       <hr>
       <div class="row">
-        <div class="cot col-sm-2">Shop and Learn<br><a href="">Store</a><br><a href="">Mac</a><br><a href="">iPad</a><br><a href="">iPhone</a><br><a href="">Watch</a><br><a href="">AirPods</a><br><a href="">TV &amp; Home</a><br><a href="">AirTag</a><br><a href="">Gift Cards</a></div>
+        <div class="cot col-sm-2">Shop and Learn<br>Store<br>Mac<br>iPad<br>iPhone<br>Watch<br>AirPods<br>TV &amp; Home<br>AirTag<br>Gift Cards</div>
         <div class="cot2 col-sm-2">Store<br>                Mac<br>                iPad<br>                iPhone<br>                Watch<br>                AirPods<br>                TV &amp; Home<br>                AirTag<br>                Accessories<br>                Gift Cards<br>                Services<br>                Apple Music<br>                Apple TV+<br>                Apple Fitness+<br>                Apple News+<br>                Apple Arcade<br>                iCloud<br>                Apple One<br>                Apple Card<br>                Apple Books<br>                Apple Podcasts<br>                App Store<br></div>
         <div class="col-sm-2">Apple Store<br>                Find a Store<br>                Genius Bar<br>                Today at Applebr<br>                Apple Camp<br>                Apple Store App<br>                Refurbished and Clearance<br>                Financing<br>                Apple Trade In<br>                Order Status<br>                Shopping Help</div>
         <div class="col-sm-2">For Business<br>                Apple and Business<br>                Shop for Business<br><br>                For Education<br>                Apple and Education<br>                Shop for K-12<br>                Shop for College<br><br>                For Healthcare<br>                Apple in Healthcare<br>                Health on Apple Watch<br>                Health Records on iPhone</div>

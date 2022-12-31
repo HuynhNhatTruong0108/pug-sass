@@ -6,11 +6,16 @@ $background-color_1: #5574C5;
 $background-color_2: #bbbbbb;
 $background-color_3: black;
 $background-color_4: rgb(250, 250, 250);
+$background-color_5: rgb(242, 241, 241);
 
 
-$background-color_5: rgb(38, 35, 35);
 
-
+.glyphicon.glyphicon-briefcase{
+	margin-top: 10px;
+}
+.dropdown{
+	background: black;
+}
 
 nav.navbar.navbar-inverse {
   
@@ -21,9 +26,11 @@ nav.navbar.navbar-inverse {
 }
 
 
+
 //ip14
 .unit-copy-wrapper {
 	text-align: center;
+	padding-top: 50px;
 }
 .cta-links {
 	text-align: center;
@@ -52,9 +59,33 @@ nav.navbar.navbar-inverse {
 	a {
 		color: $color_2;
 	}
+
+//grid
 }
 .thumbnail {
 	text-align: center;
+
+
+}
+.thumbnail.t1{
+	background-color: $color_4;
+	color: $color_3;
+}
+.thumbnail.t2{
+	background-color: $color_4;
+	color: $color_3;
+}
+.thumbnail.t3{
+	background-color: $background-color_5;
+	color: $color_4;
+}
+.thumbnail.t4{
+	background-color: gainsboro;
+	color: $color_4;
+}
+.thumbnail.t5{
+	background-color: $background-color_3;
+	color: $color_3;
 }
 
 
@@ -62,6 +93,7 @@ nav.navbar.navbar-inverse {
 
 .slide.img {
 	width: 100%;
+	
 }
 .height {
 	height: 10px;
@@ -70,6 +102,8 @@ nav.navbar.navbar-inverse {
 	max-width: 800px;
 	position: relative;
 	margin: auto;
+	
+	
 }
 .next {
 	right: 0;
@@ -186,7 +220,7 @@ nav.navbar.navbar-inverse {
 
 .box {
 	height: 50px;
-	background-color: $background-color_5;
+	background-color: $background-color_3;
 	display: flex;
 	justify-content: center;
 	align-items: center;

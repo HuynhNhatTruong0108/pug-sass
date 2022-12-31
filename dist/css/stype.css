@@ -1,9 +1,18 @@
+.glyphicon.glyphicon-briefcase {
+  margin-top: 10px;
+}
+
+.dropdown {
+  background: black;
+}
+
 nav.navbar.navbar-inverse {
   padding-left: 120px;
 }
 
 .unit-copy-wrapper {
   text-align: center;
+  padding-top: 50px;
 }
 
 .cta-links {
@@ -36,6 +45,31 @@ nav.navbar.navbar-inverse {
 
 .thumbnail {
   text-align: center;
+}
+
+.thumbnail.t1 {
+  background-color: black;
+  color: white;
+}
+
+.thumbnail.t2 {
+  background-color: black;
+  color: white;
+}
+
+.thumbnail.t3 {
+  background-color: #f2f1f1;
+  color: black;
+}
+
+.thumbnail.t4 {
+  background-color: gainsboro;
+  color: black;
+}
+
+.thumbnail.t5 {
+  background-color: black;
+  color: white;
 }
 
 .slide.img {
@@ -165,7 +199,7 @@ nav.navbar.navbar-inverse {
 
 .box {
   height: 50px;
-  background-color: #262323;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
