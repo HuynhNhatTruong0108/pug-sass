@@ -150,7 +150,7 @@
 }
 
 .dropdown {
-  background: black;
+  background: #292424;
 }
 
 nav.navbar.navbar-inverse {
@@ -159,7 +159,7 @@ nav.navbar.navbar-inverse {
 
 .box {
   height: 50px;
-  background-color: black;
+  background-color: #292424;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -238,4 +238,12 @@ input::placeholder {
 
 .end2 {
   padding: 15px 15px;
+}
+
+@font-face {
+  font-family: Tahoma, Verdana, sans-serif;
+  src: url(sansation_light.woff);
+}
+* {
+  font-family: Tahoma, Verdana, sans-serif;
 }
