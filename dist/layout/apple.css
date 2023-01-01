@@ -1,0 +1,241 @@
+.slide.img {
+  width: 100%;
+}
+
+.height {
+  height: 10px;
+}
+
+.image-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+.next {
+  right: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 10px;
+  margin-top: -25px;
+  font-size: xx-large;
+}
+
+.previous {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 10px;
+  margin-top: -25px;
+  font-size: xx-large;
+}
+
+.captionText {
+  color: black;
+  font-size: 14px;
+  position: absolute;
+  padding: 12px 12px;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.slideNumber {
+  background-color: #5574C5;
+  color: white;
+  border-radius: 25px;
+  right: 0;
+  opacity: 0.5;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+}
+
+.fa {
+  font-size: 32px;
+}
+.fa:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+  color: white;
+}
+
+.footerdot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+.footerdot:hover {
+  background-color: black;
+}
+
+.active {
+  background-color: black;
+}
+
+.unit-copy-wrapper {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.cta-links {
+  text-align: center;
+}
+
+.unit-image-wrapper {
+  text-align: center;
+}
+
+.module-content {
+  background-image: url(/assets/images/holiday.jpg);
+  background-size: cover;
+  color: white;
+  padding: 200px 30px;
+}
+.module-content a {
+  color: aqua;
+}
+
+.module-content1 {
+  background-image: url(/assets/images/br.jpg);
+  background-size: cover;
+  color: white;
+  padding: 200px 30px;
+}
+.module-content1 a {
+  color: aqua;
+}
+
+.thumbnail {
+  text-align: center;
+}
+
+.thumbnail.t1 {
+  background-color: black;
+  color: white;
+}
+
+.thumbnail.t2 {
+  background-color: black;
+  color: white;
+}
+
+.thumbnail.t3 {
+  background-color: #f2f1f1;
+  color: black;
+}
+
+.thumbnail.t4 {
+  background-color: gainsboro;
+  color: black;
+}
+
+.thumbnail.t5 {
+  background-color: black;
+  color: white;
+}
+
+.glyphicon.glyphicon-briefcase {
+  margin-top: 10px;
+}
+
+.dropdown {
+  background: black;
+}
+
+nav.navbar.navbar-inverse {
+  padding-left: 120px;
+}
+
+.box {
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.box:hover input {
+  width: 150px;
+  margin: 0 20px;
+  border-bottom: 2px solid red;
+}
+
+input {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 0px;
+  transition: 0.8s ease;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+input::-moz-placeholder {
+  color: white;
+}
+input:-ms-input-placeholder {
+  color: white;
+}
+input::placeholder {
+  color: white;
+}
+
+.rox a {
+  color: white;
+  text-align: center;
+  width: 60px;
+  font-size: 18px;
+}
+
+.end p {
+  margin: 25px 50px 75px 100px;
+}
+
+.row {
+  padding-left: 180px;
+}
+
+.end0 {
+  padding-top: 10px;
+}
+
+.end1 li {
+  float: left;
+}
+.end1 li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 6px 17px;
+  padding-right: 30px;
+  text-decoration: none;
+}
+.end1 a {
+  display: block;
+  padding: 0px;
+  background-color: #fafafa;
+}
+.end1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fafafa;
+}
+
+.end2 {
+  padding: 15px 15px;
+}

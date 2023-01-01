@@ -1,0 +1,60 @@
+//ip14
+.unit-copy-wrapper {
+	text-align: center;
+	padding-top: 50px;
+}
+.cta-links {
+	text-align: center;
+}
+.unit-image-wrapper {
+	text-align: center;
+}
+
+
+//holiday
+
+.module-content {
+	background-image: url(/assets/images/holiday.jpg);
+	background-size: cover;
+	color: $color_1;
+	padding: 200px 30px;
+	a {
+		color: $color_2;
+	}
+}
+.module-content1 {
+	background-image: url(/assets/images/br.jpg);
+	background-size: cover;
+	color: $color_3;
+	padding: 200px 30px;
+	a {
+		color: $color_2;
+	}
+
+//grid
+}
+.thumbnail {
+	text-align: center;
+
+
+}
+.thumbnail.t1{
+	background-color: $color_4;
+	color: $color_3;
+}
+.thumbnail.t2{
+	background-color: $color_4;
+	color: $color_3;
+}
+.thumbnail.t3{
+	background-color: $background-color_5;
+	color: $color_4;
+}
+.thumbnail.t4{
+	background-color: gainsboro;
+	color: $color_4;
+}
+.thumbnail.t5{
+	background-color: $background-color_3;
+	color: $color_3;
+}
