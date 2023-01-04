@@ -23,6 +23,7 @@
 }
 
 .previous {
+  left: 0;
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -97,7 +98,7 @@
 }
 
 .module-content {
-  background-image: url(/assets/images/holiday.jpg);
+  background-image: url(/images/holiday.jpg);
   background-size: cover;
   color: white;
   padding: 200px 30px;
@@ -107,7 +108,7 @@
 }
 
 .module-content1 {
-  background-image: url(/assets/images/br.jpg);
+  background-image: url(/images/br.jpg);
   background-size: cover;
   color: white;
   padding: 200px 30px;
@@ -155,6 +156,12 @@
 
 nav.navbar.navbar-inverse {
   padding-left: 120px;
+}
+
+.dropdown button {
+  background-color: #292424;
+  color: white;
+  border-color: #292424;
 }
 
 .box {
